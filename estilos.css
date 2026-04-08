@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Tablas{
+    border: 3px solid black;
+    border-color: #000;
+    border-radius: 5%;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.dis{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.lin:hover{
+    color: #038ab3;
+}
+
+.lin:active{
+    color: #00495f;
+}
