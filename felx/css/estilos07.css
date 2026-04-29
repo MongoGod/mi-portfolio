@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.im{
+    height: 100px;
+}
+
+
