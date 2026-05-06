@@ -1,0 +1,12 @@
+.cuadro{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.fle{
+    background-color: #8C8C8C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

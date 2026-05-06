@@ -1,0 +1,39 @@
+.her{
+    display: grid;
+    grid-template-areas: 'hero hero sidebar'
+                        'hero hero sidebar'
+                        'content content aside';
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hero{
+    grid-area: hero;
+    display: flex;
+    background-color: #E80000;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    display: flex;
+    background-color: #0068E8;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    grid-area: content;
+    display: flex;
+    background-color: #47941E;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside{
+    grid-area: aside;
+    display: flex;
+    background-color: #DBA504;
+    justify-content: center;
+    align-items: center;
+}

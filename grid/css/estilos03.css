@@ -1,0 +1,114 @@
+.cont{
+    display: grid;
+    grid-template-areas: 'c1 c2 c3'
+                        'c4 c5 c6'
+                        'c7 c8 c9';
+}
+
+.c1{
+    grid-area: c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: start;
+    align-self: start;
+    background-color: #00B3D6;
+}
+
+.c2{
+    grid-area: c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: center;
+    align-self: start;
+    background-color: #50B307;
+}
+
+.c3{
+    grid-area: c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: end;
+    align-self: start;
+    background-color: #DBA504;
+}
+
+.c4{
+    grid-area: c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: start;
+    align-self: center;
+    background-color: #c50101;
+}
+
+.c5{
+    grid-area: c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(128, 0, 128);
+}
+
+.c6{
+    grid-area: c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: end;
+    align-self: center;
+    background-color: rgb(233, 3, 145);
+}
+
+.c7{
+    grid-area: c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: start;
+    align-self: end;
+    background-color: #00f7ff;
+}
+
+.c8{
+    grid-area: c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: center;
+    align-self: end;
+    background-color: #5bdb00;
+}
+
+.c9{
+    grid-area: c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    justify-self: end;
+    align-self: end;
+    background-color: #a17900;
+}
