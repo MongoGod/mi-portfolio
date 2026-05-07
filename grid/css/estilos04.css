@@ -1,6 +1,138 @@
 body{
+    background-color: #121212;
+}
+
+#Cont{
     display: grid;
     grid-template-areas: 'h h h'
                         'a m m'
                         'f f f';
+    gap: 8px;
+}
+
+.h{
+    grid-area: h;
+    height: 75px;
+    border-radius: 8px;
+    background-color: #5E83FF;
+}
+
+.m{
+    grid-area: m;
+    border-radius: 8px;
+    background-color: #363636;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a{
+    grid-area: a;
+    border-radius: 8px;
+    background-color: #B5B5B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.f{
+    grid-area: f;
+    border-radius: 8px;
+    background-color: #363636;
+}
+
+.var{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 85%;
+    background-color: #5E83FF;
+    border-radius: 7px;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 85%;
+    background-color: #5e84ff49;
+    border-radius: 7px;
+}
+
+#d1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #454545;
+    border-radius: 8px;
+}
+
+.to1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+}
+
+.bo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #547cff;
+    border-radius: 15px;
+    height: 8px;
+    width: 70%;
+}
+
+#d2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #454545;
+    border-radius: 8px;
+}
+
+.bo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #C90ACF;
+    border-radius: 15px;
+    height: 8px;
+    width: 55%;
+}
+
+#d3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #454545;
+    border-radius: 8px;
+}
+
+.bo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #F2A522;
+    border-radius: 15px;
+    height: 8px;
+    width: 45%;
+}
+
+.to2{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
 }
