@@ -1,0 +1,139 @@
+body{
+    background-color: #454545;
+}
+
+p{
+    color: #E3E3E3;
+}
+
+#contenido{
+    display: grid;
+    grid-template-areas: 'h h h'
+                         'l m r'
+                         'f f f';
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 8px;
+    margin: 0;
+}
+
+.h{
+    grid-area: h;
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    background-color: #5E83FF;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.l{
+    grid-area: l;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8e8e8e;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.var{
+    background-color: #2C8BDB;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.cons{
+    background-color: #2c8cdb5d;
+    width: 90%;
+    border-radius: 8px;
+}
+
+
+.m{
+    grid-area: m;
+    display: flex;
+    flex-direction: row;
+    background-color: #6B6B6B;
+    border-radius: 8px;
+}
+
+.izq2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    gap: 10px;
+}
+
+.der2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.pri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #999999;
+}
+
+.pri2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.pri3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.r{
+    grid-area: r;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8e8e8e;
+    border-radius: 8px;
+}
+
+.r1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.col{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.ins{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+.f{
+    grid-area: f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #6B6B6B;
+    height: 75px;
+    border-radius: 8px;
+}
