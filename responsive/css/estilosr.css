@@ -1,0 +1,25 @@
+.Cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+}
+
+@media(min-width: 480px){
+    .Cont{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        background-color: rgb(180, 180, 180);
+    }
+}
+
+@media(min-width: 1024px){
+    .Cont{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        background-color: rgb(180, 180, 180);
+    }
+}
