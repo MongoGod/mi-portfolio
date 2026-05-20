@@ -3,63 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>Sobre mi</title>
 </head>
 <body>
-    <header>
+    <header class="h">
         <h1>Dante Laureiro</h1>
     </header>
 
-    <main>
+    <main class="m">
         <img src="img/hs.jpg" alt="Hombre elegante" id="aaa">
 
-        <h2>Horarios de trabajo y lista de habilidades</h2>
-        <section>
-            <table class="Tablas">
-                <tr>
-                    <td><p class="dis">Horarios</p></td>
-                    <td><p class="dis">LUNES</p></td>
-                    <td><p class="dis">MARTES</p></td>
-                    <td><p class="dis">MIÈRCOLES</p></td>
-                    <td><p class="dis">JUEVES</p></td>
-                    <td><p class="dis">VIERNES</p></td>
-                </tr>
-                <tr>
-                    <td><p class="dis">10:00-18:00</p></td>
-                    <td><p class="dis">Frontend</p></td>
-                    <td><p class="dis">Backend</p></td>
-                    <td><p class="dis">Redes</p></td>
-                    <td><p class="dis">SO</p></td>
-                    <td><p class="dis">BdD</p></td>
-                </tr>
-            </table>
+        <h2>Horarios de trabajo</h2>
+        <section class="tab">
+            <div class="cons">Horarios</div>
+            <div class="cons">Lunes</div>
+            <div class="cons">Martes</div>
+            <div class="cons">Mièrcoles</div>
+            <div class="cons">Jueves</div>
+            <div class="cons">Viernes</div>
+            <div class="cons">07:00  15:00</div>
+            <div class="cons">S.O</div>
+            <div class="cons">S.O</div>
+            <div class="cons">BdD</div>
+            <div class="cons">BdD</div>
+            <div class="cons">Backend</div>
         </section>
-        <section>
+
+        <div class="lista">
             <ol>
                 <li>Java</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Redes</li>
-                <li>SO: Linux, Redhat, Windows</li>
+                <li>SO: Linux (Redhat) y Windows</li>
                 <li>Ingles PET</li>
             </ol>
-        </section>
+        </div>
     </main>
 
-    <aside>
-        <h2>Redes sociales</h2>
-        <a href="https://www.instagram.com/" id="lin">IG</a>
+    <aside class="a">
+        
+        <div>
+            <h2>Redes sociales</h2>
+            <a href="https://www.gmail.com/" id="lin">Akos Systematic gmail</a>
+        </div>
+        <div class="proy">
+            <div>
+                <h2>Akos Syshtematic</h2>
+            </div>
+            <div class="proy2">
+                <p>Sobre nosotros: <br> <br>
+                    Nuestro nombre es Akos Systematic. Somos una pequeña empresa Uruguaya con diversos conocimientos medicos y nos enfocamos en la creaciòn de software para la gestiòn clìnica buscando facilitar el trabajo de los funcionarios</p>
+            </div>
+        </div>
     </aside>
 
-    <footer>
-        <h2>Contacte con nosotros</h2>
-        <form action="">
-            <label>Usuario:</label> <input type="text" id="usuario">
-            <label>Email:</label> <input type="email" id="email">
-            <label>Mensaje:</label> <input type="text" id="mensaje">
-            <button>Enviar</button>
-        </form>
+    <footer class="f">
+        <div class="f1">
+            <h2>Contacte con nosotros</h2>
+        </div>
+        <div class="f2">
+            <form action="" class="for">
+                <label>Usuario:</label> <input type="text" id="usuario"> <br> <br>
+                <label>Email:</label> <input type="email" id="email"> <br> <br>
+                <label>Mensaje:</label> <input type="text" id="mensaje"> <br> <br>
+                <button>Enviar</button>
+            </form>
+        </div>    
     </footer>
 </body>
 </html>
