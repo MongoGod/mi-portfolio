@@ -41,10 +41,23 @@ p{
     border-radius: 8px;
 }
 
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista ol{
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+
 .tab{
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto;
     border: 1px solid #fff;
     gap: 8px;
 }
@@ -114,13 +127,14 @@ p{
     body{
         display: grid;
         grid-template-areas: 'h h'
-                             'm m'
-                             'a a'
+                             'm a'
                              'f f';
-        grid-template-columns: auto auto;
+        grid-template-columns: 2fr 1fr;
         margin: 0;
         gap: 15px;
         padding: 10px;
+        height: 97vh;
+
         background-color: rgb(66, 66, 66);
     }
     
@@ -147,22 +161,41 @@ p{
     .m{
         grid-area: m;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
         background-color: rgb(121, 121, 121);
         border-radius: 8px;
     }
+
+    .trabajo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
     .tab{
         display: grid;
-        grid-template-rows: auto auto;
-        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto auto;
         border: 1px solid #fff;
-        width: 90%;
         gap: 8px;
     }
-    
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista ol{
+        padding-left: 0;
+        list-style-position: inside;
+        text-align: center;
+    }
+
     .cons{
         display: flex;
         flex-direction: column;
@@ -219,8 +252,10 @@ p{
     
     .f2{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
+
+    /*No supe que agregarle al formato de escritorio así que solo le cambié como se veria*/
 }
