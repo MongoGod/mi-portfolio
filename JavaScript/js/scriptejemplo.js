@@ -1,3 +1,5 @@
+/*Constantes, Funciones y Clases*/
+
 const precios = [100, 200, 300];
 
 const preIva = precios.map(precios => {return precios * 1.22;});
@@ -28,6 +30,7 @@ const stockb = objetoss.filter(index => index.stock <= 10)
 /*Cambios*/
 
 productos[0].precio = 2000;
+
 productos[2].precio = 2000;
 
 /*Logs*/
@@ -47,3 +50,4 @@ console.log(caros)
 console.log(objetoss);
 
 console.log(stockb);
+
